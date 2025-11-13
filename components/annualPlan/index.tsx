@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import MusicIcon from "@/public/images/icon-music.svg";
-import Button from "../button";
+import Button from "@/components/ui/button";
 
 const AnnualPlan = () => {
   return (
