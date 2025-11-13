@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+  --white: rgb(255, 255, 255);
+  --black: rgb(0, 0, 0);
+
+  --gray-600: rgb(113, 127, 166);
+
+  --purple-500: rgb(118, 108, 241);
+
+  --blue-950: rgb(31, 46, 85);
+  --blue-700: rgb(56, 42, 225);
+  --blue-150: rgb(214, 255, 255);
+  --blue-100: rgb(224, 232, 255);
+  --blue-50: rgb(247, 249, 255);
+
+  --space-0: 0;
+  --space-100: 0.5rem;
+  --space-200: 1rem;
+  --space-300: 1.5rem;
+  --space-400: 2rem;
+  --space-600: 3rem;
+
+  --shadow: 0 20px 20px rgba(56, 42, 225, 0.2903);
+  --shadow-hover: 0 10px 10px rgba(56, 42, 225, 0.3903);
+
+  --card-shadow: 0px 40px 40px rgba(13, 48, 189, 0.151826);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-1 {
+  font-size: 1.75rem;
+  font-weight: 900;
+  line-height: 135%;
+  letter-spacing: 0;
+}
+
+.text-2 {
+  font-size: 1.375rem;
+  font-weight: 900;
+  line-height: 135%;
+  letter-spacing: 0;
+}
+
+.text-3-black {
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 165%;
+  letter-spacing: 0;
+}
+
+.text-3-bold {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 165%;
+  letter-spacing: 0;
+}
+
+.text-3-med {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 165%;
+  letter-spacing: 0;
+}
+
+.text-4-black {
+  font-size: 0.9375rem;
+  font-weight: 900;
+  line-height: 165%;
+  letter-spacing: 0;
+}
+
+.text-4-bold {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  line-height: 165%;
+  letter-spacing: 0;
+}
+
+.text-4-med {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 165%;
+  letter-spacing: 0;
+}
