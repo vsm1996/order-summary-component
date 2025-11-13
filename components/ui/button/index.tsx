@@ -30,7 +30,7 @@ const Button = ({
   return (
     <button
       type={type}
-      className={`text-nowrap text-4-black cursor-pointer transition duration-200 ease-in-out ${preset} ${
+      className={`text-nowrap cursor-pointer transition duration-200 ease-in-out ${preset} ${
         TextVariation[textColor]
       } ${ButtonVariation[variation]} ${
         dropShadow &&
